@@ -1,0 +1,25 @@
+1 . Two pointers 
+
+It is really an easy and effective technique that is typically used for searching pairs in a sorted array.
+
+2 . Window Sliding Technique 
+
+a) It is a computational technique that aims to reduce the use of nested loops and replace it with a single loop, thereby reducing the time complexity. It should have fixed size array
+
+b) To know, Where we use the Sliding Window then we remember the following terms which is mentioned below:  Array, String, Sub Array,
+                                 Sub String, Largest Sum,
+                                 Maximum Sum, Minimum Sum
+ 
+c) when a continuous sub array with exactly k  then no of sub array of exactly k = no of size of subarray of atmost k - no of size of sub array of atmost k-1 ;
+
+d) when a continuous sub array with atleast k  then no of sub array of atleast k =  size of array - no of size of window size ;
+
+e) Min/Max 
+      for Max :
+              sum = sum of all elements
+              window = n-k;
+              ans = max(ans,sum-window)
+ f) to call sub matrix in matrix
+   for(int i = 0 ; i < n ; i+=3)
+	for(int j = 0 ; j < n ; j+=3)
+      
